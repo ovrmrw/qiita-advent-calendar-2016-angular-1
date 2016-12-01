@@ -4,8 +4,7 @@ import { AuthService } from '../lib';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <router-outlet></router-outlet>  
+  template: `  
     <nav class="navbar navbar-light bg-faded">
       <a class="navbar-brand" href="#">(Auth0 - Angular 2)</a>
       <ul class="nav navbar-nav">
